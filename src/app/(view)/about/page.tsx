@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -93,7 +94,7 @@ export default function Page() {
               enjoyable experience right from the comfort of your own home.
             </p>
             <div className="p-4">
-              <img src="/logo.jpg" alt="logo" />
+              <Image src="/logo.jpg" alt="logo" />
             </div>
           </div>
         </div>
@@ -124,7 +125,7 @@ export default function Page() {
                         Explore our extensive catalog featuring a diverse range
                         of products, including electronics, fashion, beauty,
                         home essentials, and more. With new arrivals regularly
-                        added, there's always something exciting to discover.
+                        added, there is always something exciting to discover.
                       </p>
                     </div>
                   </div>
@@ -219,7 +220,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

@@ -119,7 +119,7 @@ export default function CarouselComponent() {
         </a>
         .
       </p>
-      <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+      
     </div>
   );
 }
